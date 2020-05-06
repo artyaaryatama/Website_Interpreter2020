@@ -5,6 +5,78 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* css nya kontak kami */
+#contact .about-grid-main {
+    padding: 3em 2em 3em;
+    border-radius: 15px;
+    margin: 0 auto;
+    color: #324e7b;   
+    background: linear-gradient(120deg, rgb(246, 248, 251), rgb(240, 247, 255));
+    -webkit-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    -moz-box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+    box-shadow: 5px 7px 23px 0px rgba(58, 52, 82, 0.16);
+}
+
+#contact #contact-desc .hubungi-kami {
+    padding: 55px 10px 13px 10px;
+    font-size: 34px;
+}
+#contact #contact-desc .get-social {
+    padding: 35px 10px 20px 10px;
+    font-size: 34px;
+}
+#contact .form-title {
+    padding-bottom: 20px;
+    text-align: center;
+}
+#contact form input {
+    font-size: 15px;
+    background: #fff ;
+    border: none;
+}
+#contact form textarea {
+    font-size: 15px;
+    background: #fff;
+    border: none;
+}
+#contact form button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: #324e7b;
+    color: rgb(183, 211, 255);
+}
+#contact #contact-desc p {
+    padding: 5px 10px 44px 9px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #51585f;
+}
+#contact #contact-desc .social-media-contact p {
+    padding: 5px 10px 0px 9px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #51585f;
+}
+#contact #contact-desc p span {
+    color: red;
+}
+.social-media-contact a, p {
+    float: left;
+}
+.social-media-contact a {
+    color: #202428;
+    font-size: 17px;
+    letter-spacing: .5px;
+    margin: 0 14px;
+    font-weight: 400;
+    line-height: 3.0;
+}
+/* Akhir dari css kontak kami */
+
 body button,
 .btn,
 body a {
